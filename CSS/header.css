@@ -1,0 +1,281 @@
+header{
+
+    background-image: url(../Assets/programmer.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-right: 7px;
+   
+}
+
+#headNevbar{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+
+    margin-left: 10%;
+    
+}
+
+.logo h1{
+    color: var(--secondaryColor);
+}
+
+span{
+
+    margin-right: 5px;
+    color: var(--primaryColor);
+}
+
+.nav{
+   
+    margin-right:17%;
+    margin-top: 2% ;
+
+}
+
+.diffcolor a{
+
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 2.5%;
+    margin-left: 84%;
+
+}
+
+.nav a{
+
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--secondaryColor);
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.nav a:hover{
+
+    background-color: var(--primaryColor); 
+    cursor: pointer;
+    transform: scale(1.03);
+    color:var(--secondaryColor) ;
+ }
+ 
+
+ .paragraph{
+
+    width: 580px;
+    height: 190px;
+    font-family: 'Inter' , sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: var(--secondaryColor);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+
+.info{
+
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.pic img{
+
+    width: 60%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 100%;
+    border: 3px solid var(--primaryColor);
+
+}
+
+.social{
+    margin-top: 5%;
+}
+
+.social i{
+
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+.paragraph button{
+
+    
+    background-color: transparent;
+    color: var(--secondaryColor);
+    border: var(--primaryColor) solid 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.paragraph button:hover{
+
+    background-color: var(--primaryColor); 
+    cursor: pointer;
+    transform: scale(1.03);
+    color:var(--secondaryColor) ;
+}
+
+
+
+  /* Media query for smaller screens (e.g., mobile devices) */
+  @media screen and (max-width: 768px) {
+
+    .info {
+
+      display: block;
+     
+
+    }
+
+    .logo{
+
+        margin-left: 0%;
+        margin-top: 0%;
+        
+    }
+
+    
+
+    .pic {
+      text-align: center;
+      margin-top: 2%;
+    }
+    
+
+    .logo h1 {
+      font-size: 24px;
+      margin-bottom: 0px;
+      color: var(--secondaryColor);
+    }
+
+
+    span{
+    
+        margin-right: 5px;
+        color: var(--primaryColor);
+    }
+
+  
+    .nav {
+      text-align: center;
+    }
+  
+    .nav a {
+      margin: 0;
+      text-decoration: none;
+      margin-right: 20px;
+      color: var(--secondaryColor);
+      font-weight: 300;
+      font-size: 18px;
+    
+    }
+
+    .nav a:hover{
+
+        background-color: var(--primaryColor); 
+        cursor: pointer;
+        transform: scale(1.03);
+        color:var(--secondaryColor) ;
+     }
+
+     
+      
+
+
+    .paragraph button{
+
+    
+        background-color: transparent;
+        color: var(--secondaryColor);
+        border: var(--primaryColor) solid 2px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .paragraph button:hover{
+
+        background-color: var(--primaryColor); 
+        cursor: pointer;
+        transform: scale(1.03);
+        color:var(--secondaryColor) ;
+    }
+
+    .pic img{
+
+         width: 40%;
+         height: 70%;
+         margin-top: 8%;
+         margin-left: 1%;
+         border-radius: 100%;
+         border: 3px solid var(--primaryColor);
+        
+        }
+
+    .diffcolor a{
+
+        color: var(--primaryColor);
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 2.5%;
+        margin-left: 84%;
+        
+        }
+
+      .paragraph{
+
+            width: 400px;
+            height: 190px;
+            font-family: 'Inter' , sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+            letter-spacing: 0em;
+            color: var(--secondaryColor);
+            text-align: center;
+            margin-top: 5%;
+            padding-bottom: 5%;
+        }
+
+
+        .social{
+            margin-top: 2%;
+        }
+        
+        .social i{
+        
+            margin-right: 5%;
+            font-size: 15px;
+        }
+        
+    
+    }
+
+

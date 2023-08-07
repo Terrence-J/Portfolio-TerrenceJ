@@ -1,0 +1,163 @@
+.s-heading{
+
+    width: 50%;
+    height: 50%;
+}
+
+.s-heading h1{
+
+   margin-left: 17%;
+   margin-top: 5%;
+   font-family: 'Inter' , sans-serif;
+   font-weight: 300;
+   color: var(--secondaryColor);
+   padding-top: 5%;
+
+}
+
+#s-skills{
+
+    background-image: url(../Assets/programmer.jpg);
+    display: flex;
+    
+}
+
+.s-heading p{
+
+    margin-left: 3%;
+    color: var(--secondaryColor);
+    padding: 15px;
+}
+
+
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 70%; 
+  background-color: #ddd; 
+  margin-left: 5%;
+  
+}
+
+.skills {
+
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+
+}
+
+.html
+ {
+    width: 90%; 
+    background-color:  var(--primaryColor);
+    height: 10px;
+
+} 
+
+.css 
+{
+   width: 80%; 
+   background-color: var(--primaryColor);
+   height: 10px;
+}
+
+.js 
+{
+    width: 65%; 
+    background-color:  var(--primaryColor);
+    height: 10px;
+} 
+
+.cplus
+ {
+    width: 70%; 
+    background-color:  var(--primaryColor);
+    height: 10px;
+} 
+
+.php
+ {
+    width: 60%; 
+    background-color:  var(--primaryColor);
+    height: 10px;
+} 
+
+.timeline{
+    
+    width: 50%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+   
+}
+
+.timeline h1{
+   
+   margin-left: 17%;
+   font-family: 'Inter' , sans-serif;
+   font-weight: 300;
+   color:   var(--primaryColor);
+   padding-bottom: 5%;
+   
+   
+
+}
+
+
+
+.items{
+    
+
+    border-left: 2px solid var(--forthColor);
+    padding: 0px 20px 0px 30px;
+   
+}
+
+.time-item{
+
+    background-color: var(--secondaryColor);
+    width: 70%;
+    height: 30%;
+    position: relative;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 300;
+    color: #000000;
+    border: 1px solid var(--forthColor);
+    margin-bottom: 20px;
+    
+
+}
+
+
+.time-item::before{
+ 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    background-color: var(--primaryColor);
+    top: 2000px;
+    margin-left: -40px;
+    border: 3px solid var(--forthColor);
+    margin-right: 50px;
+}
+
+
+
+.time-item p{
+
+    color: var(--thirdColor);
+    font-family: 'Inter' , sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: justify;
+    
+}
+
+

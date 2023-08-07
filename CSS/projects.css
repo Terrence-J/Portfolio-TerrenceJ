@@ -1,0 +1,237 @@
+
+#proj h1{
+    
+    font-family: 'Inter' , sans-serif;
+    font-weight: 300;
+    color: var(--thirdColor);
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+#rectangle3{
+
+    width: 7%;
+    height: 2px;
+    background-color: var(--thirdColor);
+    margin-left: 43.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.phone{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  #rectangle3{
+
+    align-content: center;
+
+  }
+
+
+}
+
+/* smartphone style */
+
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin-left: 20%;
+  border: 16px var(--thirdColor) solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  box-shadow: 0 4px 8px 0 var(--primaryColor), 0 6px 20px 0 var(--primaryColor);
+}
+
+.smartphone:hover{
+  
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin-left: 20%;
+  border: 16px var(--primaryColor) solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  box-shadow: 0 4px 8px 0 var(--primaryColor), 0 6px 20px 0 var(--primaryColor);
+
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--primaryColor);
+    border-radius: 10px;
+    
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: var(--primaryColor);
+    border-radius: 50%;
+  }
+  
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    width: 330px;
+    height: 520px;
+    
+  }
+
+
+  /*smartphone 2*/
+
+  .smartphone2 {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin-left: 12%;
+    margin-top: 10%;
+    border: 16px var(--thirdColor) solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    box-shadow: 0 4px 8px 0 var(--primaryColor), 0 6px 20px 0 var(--primaryColor);
+  }
+
+  .smartphone2:hover{
+  
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin-left: 20%;
+    border: 16px var(--primaryColor) solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    box-shadow: 0 4px 8px 0 var(--primaryColor), 0 6px 20px 0 var(--primaryColor);
+  
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone2:before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 5px;
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: var(--primaryColor);
+      border-radius: 10px;
+    }
+    
+    /* The circle on the bottom of the device */
+    .smartphone2:after {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      left: 50%;
+      bottom: -65px;
+      transform: translate(-50%, -50%);
+      background: var(--primaryColor);
+      border-radius: 50%;
+    }
+    
+    /* The screen (or content) of the device */
+    .smartphone2 .content {
+      width: 330px;
+      height: 520px;
+ 
+      
+    }
+
+    .phone .content p{
+
+    font-family: 'Inter' , sans-serif;
+    font-weight: 300;
+    color: var(--thirdColor);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: justify;
+    text-align: center;
+    margin-top: 20%;
+
+    }
+
+    .phone .content h3{
+
+      text-align: center;
+      font-family: 'Inter' , sans-serif;
+      font-weight: 300;
+      color: var(--thirdColor);
+      line-height: 19px;
+      letter-spacing: 0em;
+
+    }
+
+    #rectangle5{
+
+    width: 14%;
+    height: 3px;
+    background-color: var(--thirdColor);
+    margin-left: 40%;
+    margin-top: 15%;
+
+    }
+
+    #rectangle6{
+
+        width: 14%;
+        height: 3px;
+        background-color: var(--thirdColor);
+        margin-left: 40%;
+        margin-top: 15%;
+    
+        }
+
+    .content button{
+
+        width: 70%;
+        height: 10%;
+        border: 2px solid var(--primaryColor);
+        background-color: transparent;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        align-items: center;
+        margin-left: 15%;
+    }
+
+    .content button:hover{
+
+      background-color: var(--thirdColor);
+      color: var(--secondaryColor);
+    }
+
+    .content i{
+
+        margin-left: 38%;
+        margin-top: 25%;
+    }

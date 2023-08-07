@@ -1,0 +1,115 @@
+#main{
+
+    width: 70%;
+    height: 100%;
+    margin-left: 17%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+
+}
+
+.card{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+
+
+.services{
+
+    padding-top: 5px;
+}
+
+.services h1{
+
+    font-family: 'Inter' , sans-serif;
+    font-weight: 300;
+    color: #000000;
+    margin-left: 39%;
+    margin-top: 5%;
+    text-align: justify center;
+
+}
+
+#rectangle4{
+
+    width: 7%;
+    height: 2px;
+    background-color: #060606;
+    margin-left: 43%;
+    margin-top: 5%;
+
+  }
+
+.box{
+    
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 7%;
+    background-color: #ffffff;
+    padding-top: 7%;
+    box-shadow: 0 4px 8px 0  var(--primaryColor), 0 6px 20px 0  var(--primaryColor);
+    
+}
+
+.box:hover{
+
+    background-color: var(--primaryColor);
+}
+
+.main-icon i{
+
+    font-size: 60px;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    justify-content: center right;
+    color: var(--primaryColor);
+    
+}
+
+.main-icon i:hover{
+
+    color: var(--thirdColor);
+}
+
+.text p{
+
+    
+
+    width:200px ;
+    text-align:  center;
+    margin-left: 30px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 300;
+    color: #000000;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+
+
+
+.box h3{
+
+    width: 50%;
+    font-family: 'Inter' , sans-serif;
+    text-align: center;
+    margin-left: 22%;
+
+}
+
+@media screen and (max-width: 768px){
+ 
+    .services h1{
+
+        font-family: 'Inter' , sans-serif;
+        font-weight: 300;
+        color: #000000;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+}

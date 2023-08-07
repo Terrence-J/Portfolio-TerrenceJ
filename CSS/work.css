@@ -1,0 +1,33 @@
+.main-project{
+
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.project h3{
+
+    font-size: 20px;
+    color: currentColor;
+    font-weight: 400;
+    margin-left: 70px;
+
+}
+
+.p-project h3{
+
+    font-size: 20px;
+    color: currentColor;
+    font-weight: 400;
+    margin-left: 140px;
+
+}
+
+.c-project h3{
+
+    font-size: 20px;
+    color: currentColor;
+    font-weight: 400;
+    margin-left: 210px;
+
+}
